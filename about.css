@@ -1,0 +1,108 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background-color:darkslategray;
+       font-family: 'Nunito Sans', sans-serif;
+   }
+   /* banner css */
+  
+    #logo{
+      color:#219ebc;
+      font-size: 40px;
+  }
+  .flower-logo{
+      margin-top:10px;
+      margin-left: 10px;
+      border-radius: 15px;
+  }
+   nav{
+       background-color: black;
+   }
+   nav ul{
+       list-style: none;
+       
+   }
+   nav ul li{
+       display: inline-block;
+       padding: 20px;
+       
+      
+   }
+   nav ul li a{
+       font-size: 25px;
+       color:white;
+       text-decoration: none;
+      
+   }
+   nav ul li a:hover{
+      
+       color:yellow;
+       transition: ease .7s;
+   }
+   .first-container{
+      
+       height: 600px;
+      
+       
+      
+   }
+   .first-container h1{
+    color:yellow;
+    
+    font-size: 50px;
+    text-align: center;
+}
+      
+   
+   /* footer css start here */
+   footer{
+       background-color: black;
+       
+       
+   }
+  
+   .footer-container{
+     
+
+     
+   }
+   .fa{
+       padding: 5px;
+      font-size: 15px;
+      display: block;
+      text-decoration: none;
+      color:lightskyblue;
+      
+   }
+   .fa:hover{
+       color:darkblue;
+   }
+      
+   
+  
+       
+
+   .footer-col{
+       display: inline-block;
+       width:33%;
+       padding: 10px;
+
+   }
+   .footer-nav{
+       text-decoration: none;
+       color: white;
+       
+       
+   }
+   .copy-right{
+       color:white;
+       text-align: center;
+       padding:10px;
+   }
+   hr{
+       margin:0 20px 0 20px;
+   }
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Day5 Daily Challenge</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 3px solid #020202;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 30px;
+}
+nav{
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 3px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding:  40px;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: chartreuse;
+}
+nav ul li a:active{
+    color: #fff;
+    background-color:crimson;
+}
+nav, footer{
+    height: 100px;
+}
+main{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/main.jpg');
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    height: 800px;
+    position: relative;
+    z-index:-1;
+}
+main .main-child{
+    height: 300px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+aside{
+    background-color: darkolivegreen;
+    width: 35%;
+    height:680px ;
+    float: right;
+}
+section, article{
+    background-color: deepskyblue;
+    height: 340px;
+    width: 65%;
+    float: left;
+}
+footer{
+    background-color: rosybrown;
+    clear: both;
+}
+    </style>
+</head>
+<body>
+    <nav class="border">
+        <h1>NAV</h1>
+        <ul> 
+            <li><a href="https://findtheinvisiblecow.com/" target="_blank">link#1</a></li>
+            <li><a href="https://archive.org/web/" target="_blank">link#1</a></li>
+            <li><a href="https://www.internetlivestats.com/" target="_blank">link#1</a></li>
+        </ul>
+    </nav>
+    <main class="border">
+        <div class="main-child">
+            <h2>MAIN</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tenetur corrupti facilis dolores qui itaque iste magnam aut eveniet, quis nulla voluptatibus facere, reiciendis animi. Qui dolores dicta delectus illum?</p>
+        </div>
+    </main>
+    <aside class="border">
+        <h3>ASIDE</h3>
+    </aside>
+    <section class="border">
+        <h4>SECTION</h4>
+    </section>
+    <article class="border">
+        <h5>ARTICLE</h5>
+    </article>
+    <footer class="border">
+        <h6>FOOTER</h6>
+    </footer>
+</body>
+</html>

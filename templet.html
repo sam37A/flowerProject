@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome linl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+    <style>
+        *{
+         margin: 0;  
+         padding: 0;
+         box-sizing: border-box;
+        }
+        body{
+            background-color:darkslategray;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        /* banner css */
+       
+         #logo{
+           color:#219ebc;
+           font-size: 40px;
+       }
+       .flower-logo{
+           margin-top:10px;
+           margin-left: 10px;
+           border-radius: 15px;
+       }
+        nav{
+            background-color: black;
+        }
+        nav ul{
+            list-style: none;
+            
+        }
+        nav ul li{
+            display: inline-block;
+            padding: 20px;
+            
+           
+        }
+        nav ul li a{
+            font-size: 25px;
+            color:white;
+            text-decoration: none;
+           
+        }
+        nav ul li a:hover{
+           
+            color:yellow;
+            transition: ease .7s;
+        }
+        .first-container{
+            /* background-image: url(./img/heroImage.jpg); */
+            background-image: url(./img/hero4.jpeg);
+           
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            
+           
+        }
+        .first-container h1{
+            color:yellow;
+            padding:200px;
+            font-size: 50px;
+            text-align: center;
+        }
+        .our-product{
+            height: 75px;
+            width: 300px;
+            border:1px solid black;
+            margin: auto;
+           
+            
+           background-color: seashell;
+            color:red;
+            border-radius: 5px;
+        }
+       .our-product h1{
+            text-align: center;
+            font-size:30px;
+            padding:30;
+           margin:10px;
+            color:red;
+            
+
+        }
+        .hero-pic{
+           
+        }
+        .second-container{
+          margin-left: 25px; 
+          margin-top:10px;
+        }
+        .first-card{
+            display: inline-block;
+            height: 405px;
+            width: 300px;
+            margin: 10px;
+            background-color:silver;
+            border-radius: 10px;;
+        }
+        
+        
+        .card-image{
+            height: 300px;
+            width:290px;
+           text-align: center;
+          margin:10px 10px 0 7px;
+           border-radius: 15px;
+          
+        }
+        .card-image :hover {
+            
+        }
+        .tag-text{
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+        .first-card button{
+            margin-left: 40%;
+            background-color: turquoise;
+            padding: 5px;
+            border-radius: 30px;
+
+        }
+        /* second container css ends here */
+        
+        /* third container stars hee */
+        .third-container{
+            margin: 10px 0 40px 0;
+            background-color:darkslategray;
+            margin-bottom: 20px;
+            height: 550px;
+            
+        }
+        .occasion-div{
+            height: 500px;
+            width: 60%;
+            background-color:lightgray;
+            float: left;
+            text-align: center;
+            margin-bottom: 10px;
+           
+        }
+        .occasion-div h1{
+            text-align: center;
+            margin:20px;
+            color:red;
+        }
+        .occation-button{
+           padding:20px;
+           display: inline-block;
+           height:50px;
+           width:200px;
+           padding:10px;
+           background-color: lightsalmon;
+          
+
+        }
+        .sale-event{
+            height: 500px;
+            width: 40%;
+            background-color:#800000;
+            float:left;
+            margin-bottom: 10px;
+        }
+        .sale-event h1, h2{
+            text-align: center;
+            
+            color:yellow;
+        }
+        .sale-event p{
+            color:red;
+            font-size: 30px;
+            text-align: center;
+        }
+         .valentine-image{
+           text-align:center;
+        }
+        span{
+            text-decoration: line-through;  
+        }
+        
+           
+        
+        /* footer css start here */
+        footer{
+            background-color: black;
+            
+            
+        }
+       
+        .footer-container{
+          
+
+          
+        }
+        .fa{
+            padding: 5px;
+           font-size: 15px;
+           display: block;
+           text-decoration: none;
+           color:lightskyblue;
+           
+        }
+        .fa:hover{
+            color:darkblue;
+        }
+           
+        
+       
+            
+    
+        .footer-col{
+            display: inline-block;
+            width:33%;
+            padding: 10px;
+
+        }
+        .footer-nav{
+            text-decoration: none;
+            color: white;
+            
+            
+        }
+        .copy-right{
+            color:white;
+            text-align: center;
+            padding:10px;
+        }
+        hr{
+            margin:0 20px 0 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        
+        <ul>
+            <img  class ="flower-logo"src="./img/flower-logo.png" width="40px" height="40px" alt="">
+            <li> <a id="logo" href ="#">Blossom Corner</a></li>
+            <li> <a href ="#">Home</a></li>
+            <li> <a href ="#">Features</a></li>
+            <li> <a href ="#">Products</a></li>
+            <li> <a href ="#">About Us</a></li>
+            <li> <a href ="#">Contact</a></li>
+            <img src="./img/cart-icon.jpg" width=" 30px" height="30px" alt="">
+        </ul>
+    </nav>
+    
+    <div class="first-container">
+        <h1>Welcome to Blossom Corner</h1>
+       
+    </div>
+    <div class="second-container">
+        <div class ="our-product">
+            <h1>Featured Products</h1>
+        </div>
+        
+        <div class="first-card">
+            <img class="card-image" src="./img/rose.jpg" alt="">
+            <p class="tag-text">Rose</p>
+            <p class="tag-text">price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/chrysanthemum.jpg" alt="">
+            <p class="tag-text">Chrysanthemum</p>
+            <p class="tag-text">price: $20 -$30</p>
+            <button>Shop Now</button>
+            <!-- <p class="tag-text">Shop Now</p> -->
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/Petunia.jpg" alt="">
+            <p class="tag-text">Petunia</p>
+            <p class="tag-text">price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/daisy.jpg" alt="">
+            <p class="tag-text">Daisy</p>
+            <p class="tag-text">price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+        <!-- <hr><hr> -->
+        <div class="first-card">
+            <img class="card-image" src="./img/daffodil.jpg" alt="">
+            <p class="tag-text">Daffodil</p>
+            <p class="tag-text">price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/gerberas.jpg" alt="">
+            <p class="tag-text">Gerberas</p>
+            <p class="tag-text">price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/carnations.jpg" alt="">
+            <p class="tag-text">Carnations</p>
+            <p class="tag-text">price:$20 - $30</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="first-card">
+            <img class="card-image" src="./img/tulips.jpg" alt="">
+            <p class="tag-text">Tulips</p>
+            <p class="tag-text">Price:$20 -$30</p>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="third-container">
+        <div class="occasion-div">
+            <h1> Shop in Your Special Occasion</h1>
+            <button class= "occation-button">
+                Birthday
+            </button>
+            <button class= "occation-button">
+               Anniversary
+            </button>
+            <button class= "occation-button">
+                Wedding
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+            <button class= "occation-button">
+                Birthday
+            </button>
+            <button class= "occation-button">
+               Anniversary
+            </button>
+            <button class= "occation-button">
+                Wedding
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+            <button class= "occation-button">
+                Birthday
+            </button>
+            <button class= "occation-button">
+               Anniversary
+            </button>
+            <button class= "occation-button">
+                Wedding
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+            <button class= "occation-button">
+                Birthday
+            </button>
+            <button class= "occation-button">
+               Anniversary
+            </button>
+            <button class= "occation-button">
+                Wedding
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+            <button class= "occation-button">
+                Funural
+            </button>
+           
+           
+        </div>
+        <div class="sale-event">
+            <h1>Blosson Corner </h1>
+            <h2>Upcoming Sale !!!</h2>
+            <P>Valentine's Day <br>35% Discount </P>
+            <div class="valentine-image">
+                <img class="card-image " src="./img/rose3.png" alt="">
+                <p> Price:<span>$30</span> $19.5</p>
+            </div>
+            
+        </div>
+    </div>
+   
+    <!-- footer starts here -->
+    <footer>
+        <div class="footer-container">
+            <div class=" footer-col social-media">
+<!--                
+                <li> <a class="footer-nav" href ="#">facebook</a></li>
+                <li> <a class="footer-nav" href ="#">twitter</a></li>
+                <li> <a class="footer-nav" href ="#">linkedin</a></li> -->
+                
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                
+            </div>
+            <div class=" footer-col ">
+               
+                <li> <a class="footer-nav" href ="#">Home</a></li>
+                <li> <a class="footer-nav" href ="#">Features</a></li>
+                <li> <a class="footer-nav" href ="#">Products</a></li>
+               
+            </div>
+            <div class=" footer-col ">
+               
+               <li> <a class="footer-nav" href ="#">About Us</a></li>
+                <li> <a class="footer-nav" href ="#">Contact:<br>  &#9990;  ph:000-000-00-00<br>&#9993; email:example@gmail.com</a></li>
+            </div>
+            
+        </div>
+        <hr>
+        <p class="copy-right">&copy Blossom Corner Inc. 2022</p>
+    </footer>
+ 
+</body>
+</html>
