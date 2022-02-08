@@ -143,14 +143,20 @@
        color:red;
    }
    .occation-button{
-      padding:20px;
+     
       display: inline-block;
       height:50px;
       width:200px;
       padding:10px;
       background-color: lightsalmon;
+      color:black;
      
 
+   }
+   .occation-button:hover{
+       background-color: red;
+       color:yellow;
+      
    }
    .sale-event{
        height: 500px;
