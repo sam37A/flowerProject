@@ -44,13 +44,14 @@
    }
   
       .first-container{
-          height:700px;
+          /* height:700px; */
+          background-image: url(./img/floewrPattern-bg.jpg);
       }
    
       .first-container h1{
         color:yellow;
        
-        font-size: 50px;
+        font-size: 60px;
         text-align: center;
     }
    /* footer css start here */

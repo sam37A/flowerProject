@@ -267,11 +267,12 @@
             <h1>Featured Products</h1>
         </div>
         
-        <div class="first-card">
+        <div class="first-card" id="try">
             <img class="card-image" src="./img/rose.jpg" alt="">
             <p class="tag-text">Rose</p>
             <p class="tag-text">price:$20 -$30</p>
-            <button>Shop Now</button>
+            <!-- <button>Shop Now</button> -->
+            <button type="button" onclick="myFunction()">Try it</button>
         </div>
         <div class="first-card">
             <img class="card-image" src="./img/chrysanthemum.jpg" alt="">
@@ -421,6 +422,12 @@
         <hr>
         <p class="copy-right">&copy Blossom Corner Inc. 2022</p>
     </footer>
+    <!-- script here -->
+    <script>
+        function myFunction() {
+          document.getElementById("try").innerHTML = "Paragraph changed.";
+        }
+        </script>
  
 </body>
 </html>

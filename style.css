@@ -110,8 +110,16 @@
       border-radius: 15px;
      
    }
-   .card-image :hover {
-       
+   .card-image:hover {
+    height: 301px;
+    width:291px;
+   text-align: center;
+    margin:10px 10px 0 7px;
+   border-radius: 15px;
+  
+    opacity: .8;
+    transition: .3s ease;
+    padding:5px; 
    }
    .tag-text{
        color: black;
